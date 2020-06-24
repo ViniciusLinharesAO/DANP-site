@@ -2705,7 +2705,6 @@ ul.icons li .icon:before {
 /* Wrapper */
 
 .wrapper {
-  padding: 0 0 6rem 0;
   position: relative;
   z-index: 1;
 }
@@ -4246,7 +4245,6 @@ body.is-menu-visible #menu {
 
 .wrapper .slide .article--img {
   padding: 0;
-  background-color: #434343;
 }
 
 .wrapper .slide:last-child .title {
@@ -4267,9 +4265,15 @@ body.is-menu-visible #menu {
     padding: 1.75rem;
     width: 100%;
   }
+  .slide .title {
+    font-size: 40px;
+  }
   .slide .title,
   .slide .article:nth-child(2) h3 {
     margin-top: 0;
     margin-bottom: 50px;
+  }
+  .wrapper .slide .article--img {
+    background-color: #434343;
   }
 }
